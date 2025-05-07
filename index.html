@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #2196f3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .card {
+        background: white;
+        border-radius: 10px;
+        padding: 30px;
+        width: 700px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      }
+      .header {
+        display: flex;
+        align-items: center;
+      }
+      .header img {
+        border-radius: 10px;
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        margin-right: 30px;
+      }
+      .header .info {
+        flex-grow: 1;
+      }
+      .info h2 {
+        margin: 0;
+      }
+      .info a {
+        color: #2196f3;
+        text-decoration: none;
+      }
+      .rating {
+        margin: 10px 0;
+      }
+      .rating span {
+        color: gold;
+        font-size: 20px;
+      }
+      .actions {
+        margin: 10px 0;
+      }
+      .actions button {
+        background: #2196f3;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+      }
+      .section {
+        border-top: 1px solid #ddd;
+        margin-top: 20px;
+        padding-top: 20px;
+      }
+      .section h3 {
+        margin-top: 0;
+      }
+      .contact-info,
+      .basic-info,
+      .skills,
+      .work {
+        margin-bottom: 15px;
+      }
+      .label {
+        font-weight: bold;
+        display: inline-block;
+        width: 80px;
+      }
+      .badge {
+        background: #2196f3;
+        color: white;
+        padding: 3px 7px;
+        border-radius: 3px;
+        font-size: 12px;
+        margin-left: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="header">
+        <img src="nando.jpg" alt="Profile" />
+        <div class="info">
+          <h2>Fernando Ananda Riza</h2>
+          <p><a href="#">Sistem Informasi</a> - Tangerang - College</p>
+        </div>
+      </div>
+      <div class="section">
+        <h3>About Me</h3>
+        <div class="college">
+          <p>
+            <strong
+              >I am a student at Budi Luhur University majoring in Digital
+              Information Systems Preneurship. I have a great interest in the
+              world of interface design and web and application development. For
+              me, design is not just about aesthetics, but how to create a
+              functional, attractive, and intuitive user experience.</strong
+            >
+          </p>
+          <p>
+            <strong>Budi Luhur University</strong><br />Jl. Ciledug Raya,
+            RT.10/RW.2, Petukangan Utara, Kec. Pesanggrahan, Kota Jakarta
+            Selatan, Daerah Khusus Ibukota Jakarta 12260
+          </p>
+        </div>
+        <h3>Skills</h3>
+        <div class="skills">
+          Branding, UI/UX, Web Design, Digital Preneurship
+        </div>
+      </div>
+      <div class="section">
+        <h3>Basic Information</h3>
+        <div class="basic-info">
+          <p><span class="label">Birthday:</span> May 5, 2004</p>
+          <p><span class="label">Gender:</span> Male</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
